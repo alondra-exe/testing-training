@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f86d83e9-92c2-46f8-a4ef-b5be03d961af" name="Changes" comment="Selenium exercises">
-      <change afterPath="$PROJECT_DIR$/screenshots/test 19-09-2022 15_13_45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ActionsDemo/ActionsLearning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ActionsDemo/JavaScriptExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumbasics/CapturingScreenShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumbasics/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumbasics/FindElementsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumbasics/MultiSelectDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumbasics/NavigationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumbasics/SeleniumFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumbasics/WaitsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/training/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seleniumbasics/Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seleniumbasics/Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +68,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "last_opened_file_path": "H:/testng-7.6.1.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager" selected="Application.CapturingScreenShot">
@@ -203,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663590456861</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Selenium exercises">
+      <created>1663618734669</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663618734669</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
