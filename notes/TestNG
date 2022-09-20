@@ -1,0 +1,3 @@
+TestNG (Test Next Generation) it's testing tool.
+1. Downloaded in eclipse using Install New Software
+2. Added the TestNG dependency in Maven pom.xml file

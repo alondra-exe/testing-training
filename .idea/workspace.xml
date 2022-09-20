@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f86d83e9-92c2-46f8-a4ef-b5be03d961af" name="Changes" comment="Selenium exercises">
+    <list default="true" id="f86d83e9-92c2-46f8-a4ef-b5be03d961af" name="Changes" comment="TestNG added">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/TestNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobiletestcases/MobileLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testcases/AssertionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testcases/DependsOnDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testcases/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testcases/InvocationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testcases/ParametrizedTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testcases/TestNGBasicAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webtestcases/WebLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ActionsDemo/ActionsLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actionsdemo/ActionsLearning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ActionsDemo/JavaScriptExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actionsdemo/JavaScriptExecutorDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,89 +78,112 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "H:/testng-7.6.1.jar",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CapturingScreenShot">
-    <configuration name="ActionsLearning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ActionsDemo.ActionsLearning" />
+  <component name="RunManager">
+    <configuration name="AssertionsDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testing-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ActionsDemo.*" />
+          <option name="PATTERN" value="testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.AssertionsDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CapturingScreenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seleniumbasics.CapturingScreenShot" />
+    <configuration name="Exercise.RemoveFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testing-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumbasics.*" />
+          <option name="PATTERN" value="testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Exercise" />
+      <option name="METHOD_NAME" value="RemoveFromCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Checkbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seleniumbasics.Checkbox" />
+    <configuration name="Exercise.ValidateCartPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testing-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumbasics.*" />
+          <option name="PATTERN" value="testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Exercise" />
+      <option name="METHOD_NAME" value="ValidateCartPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ActionsDemo.JavaScriptExecutorDemo" />
+    <configuration name="H:/idea-projects/testing-training/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testing-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ActionsDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seleniumbasics.WaitsDemo" />
+    <configuration name="ParametrizedTC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testing-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumbasics.*" />
+          <option name="PATTERN" value="testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.ParametrizedTC" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.AssertionsDemo" />
+      <item itemvalue="TestNG.Exercise.RemoveFromCart" />
+      <item itemvalue="TestNG.Exercise.ValidateCartPage" />
+      <item itemvalue="TestNG.H:/idea-projects/testing-training/testng.xml" />
+      <item itemvalue="TestNG.ParametrizedTC" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CapturingScreenShot" />
-        <item itemvalue="Application.JavaScriptExecutorDemo" />
-        <item itemvalue="Application.ActionsLearning" />
-        <item itemvalue="Application.WaitsDemo" />
-        <item itemvalue="Application.Checkbox" />
+        <item itemvalue="TestNG.ParametrizedTC" />
+        <item itemvalue="TestNG.AssertionsDemo" />
+        <item itemvalue="TestNG.H:/idea-projects/testing-training/testng.xml" />
+        <item itemvalue="TestNG.Exercise.ValidateCartPage" />
+        <item itemvalue="TestNG.Exercise.RemoveFromCart" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663618734669</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TestNG added">
+      <created>1663680383326</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663680383326</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +264,7 @@
     <MESSAGE value="Merge from release branch to master :)" />
     <MESSAGE value="Selenium first example" />
     <MESSAGE value="Selenium exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium exercises" />
+    <MESSAGE value="TestNG added" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG added" />
   </component>
 </project>
